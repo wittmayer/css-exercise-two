@@ -1,6 +1,35 @@
 body {
-  background-color: #ff0000;
-  color: #0000FF;
+  background-color: #ffff;
+  color: #000000;
+  font-size: 16px;
+  line-height: 125%;
+  font-family: sans-serif;
+}
+h1 {
+  font-size: 2em;
+  line-height: 150%;
+  margin: 10px 0px 10px 0px;
+  font-weight: bold;
+  font-family: serif;
+}
+
+h2 {
+  font-size: 1.25em;
+}
+
+h3 {
+  font-size: 1.25em;
+  margin: 10px 0px 10px 0px;
+  color: #a9a9a9;
+}
+
+a {
+  text-decoration: none;
+  color: #ffff;
+}
+
+a:hover {
+  color:#c0c0c0;
 }
 
 nav {
@@ -8,6 +37,19 @@ nav {
   float: left;
   position: fixed;
   width: 100%;
+}
+
+p {
+  margin: 15px 0px 15px 0px;
+}
+
+figcaption {
+  font-size: .75em;
+}
+
+.author {
+  text-transform: uppercase;
+  margin-bottom: 30px;
 }
 
 .logo {
@@ -21,6 +63,7 @@ nav {
 
 .medium-pic {
   width: 70%;
+  align-items: center;
 }
 
 .left, .right {
